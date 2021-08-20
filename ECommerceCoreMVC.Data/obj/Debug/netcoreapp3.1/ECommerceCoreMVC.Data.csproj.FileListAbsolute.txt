@@ -1,0 +1,9 @@
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.deps.json
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.pdb
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.csprojAssemblyReference.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.AssemblyInfoInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.AssemblyInfo.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\netcoreapp3.1\ECommerceCoreMVC.Data.pdb

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCoreMVC.Web", "ECommerceCoreMVC.Web\ECommerceCoreMVC.Web.csproj", "{42C5BC20-5A0D-46BF-8B86-32A840CCC8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceCoreMVC.Web", "ECommerceCoreMVC.Web\ECommerceCoreMVC.Web.csproj", "{42C5BC20-5A0D-46BF-8B86-32A840CCC8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCoreMVC.Data", "ECommerceCoreMVC.Data\ECommerceCoreMVC.Data.csproj", "{5B70C94E-66C7-4BE6-AD5F-76A239E5F508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceCoreMVC.Data", "ECommerceCoreMVC.Data\ECommerceCoreMVC.Data.csproj", "{5B70C94E-66C7-4BE6-AD5F-76A239E5F508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceCoreMVC.Migrations", "EcommerceCoreMVC.DataAccess\EcommerceCoreMVC.Migrations.csproj", "{05BDF6B7-50B5-48B4-A296-9703E9D6629A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCoreMVC.MigrationsSqlServer", "ECommerceCoreMVC.MigrationsSqlServer\ECommerceCoreMVC.MigrationsSqlServer.csproj", "{E8478B3C-C0B2-40A7-BC6D-0191F8D78BC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{5B70C94E-66C7-4BE6-AD5F-76A239E5F508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B70C94E-66C7-4BE6-AD5F-76A239E5F508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B70C94E-66C7-4BE6-AD5F-76A239E5F508}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05BDF6B7-50B5-48B4-A296-9703E9D6629A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05BDF6B7-50B5-48B4-A296-9703E9D6629A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05BDF6B7-50B5-48B4-A296-9703E9D6629A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05BDF6B7-50B5-48B4-A296-9703E9D6629A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8478B3C-C0B2-40A7-BC6D-0191F8D78BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8478B3C-C0B2-40A7-BC6D-0191F8D78BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8478B3C-C0B2-40A7-BC6D-0191F8D78BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8478B3C-C0B2-40A7-BC6D-0191F8D78BC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

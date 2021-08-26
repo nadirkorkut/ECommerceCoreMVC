@@ -4,6 +4,152 @@
     "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Web\\ECommerceCoreMVC.Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj",
+        "projectName": "ECommerceCoreMVC.Data",
+        "projectPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj",
+        "packagesPath": "C:\\Users\\Nadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nadir\\NuGet.Config",
+          "C:\\Users\\Nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\ECommerceCoreMVC.MigrationsSqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\ECommerceCoreMVC.MigrationsSqlServer.csproj",
+        "projectName": "ECommerceCoreMVC.MigrationsSqlServer",
+        "projectPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\ECommerceCoreMVC.MigrationsSqlServer.csproj",
+        "packagesPath": "C:\\Users\\Nadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nadir\\NuGet.Config",
+          "C:\\Users\\Nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj": {
+                "projectPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Web\\ECommerceCoreMVC.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -23,7 +169,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -32,9 +178,16 @@
           "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj": {
+                "projectPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj"
+              },
+              "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\ECommerceCoreMVC.MigrationsSqlServer.csproj": {
+                "projectPath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.MigrationsSqlServer\\ECommerceCoreMVC.MigrationsSqlServer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,8 +197,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,12 +231,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

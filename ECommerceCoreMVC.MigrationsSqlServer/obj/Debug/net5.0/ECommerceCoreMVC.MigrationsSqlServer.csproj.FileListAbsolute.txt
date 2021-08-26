@@ -1,0 +1,15 @@
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.deps.json
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ref\ECommerceCoreMVC.MigrationsSqlServer.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.pdb
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.csprojAssemblyReference.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.AssemblyInfoInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.AssemblyInfo.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ref\ECommerceCoreMVC.MigrationsSqlServer.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.pdb
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\bin\Debug\net5.0\ECommerceCoreMVC.Data.pdb
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.MigrationsSqlServer\obj\Debug\net5.0\ECommerceCoreMVC.MigrationsSqlServer.csproj.CopyComplete

@@ -1,9 +1,0 @@
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\bin\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.deps.json
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\bin\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.dll
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\bin\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.pdb
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.csprojAssemblyReference.cache
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.AssemblyInfoInputs.cache
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.AssemblyInfo.cs
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.csproj.CoreCompileInputs.cache
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.dll
-C:\Users\Nadir\source\repos\ECommerceCoreMVC\EcommerceCoreMVC.DataAccess\obj\Debug\netcoreapp3.1\EcommerceCoreMVC.Migrations.pdb

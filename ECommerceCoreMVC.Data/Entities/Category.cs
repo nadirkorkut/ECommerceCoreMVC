@@ -17,7 +17,7 @@ namespace ECommerceCoreMVC.Data.Entities
 
         #region Navigation
         public virtual ICollection<Banner> Banners { get; set; } = new HashSet<Banner>();
-        public virtual ICollection<Product> Products { get; set; } = new HashSet<Product>();
+        public virtual ICollection<CategoryProduct> CategoryProducts { get; set; } = new HashSet<CategoryProduct>();
         public virtual Rayon Rayon { get; set; }
         #endregion
 
@@ -39,10 +39,6 @@ namespace ECommerceCoreMVC.Data.Entities
                 .WithOne(p => p.Category)
                 .HasForeignKey(p => p.CategoryId)
                 .OnDelete(DeleteBehavior.SetNull);
-
-                entity
-                .HasMany(p => p.Products)
-                .WithMany(p => p.Categories);
 
             });
         }

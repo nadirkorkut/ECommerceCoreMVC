@@ -1,0 +1,12 @@
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\net5.0\ECommerceCoreMVC.Data.deps.json
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\net5.0\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\net5.0\ref\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\bin\Debug\net5.0\ECommerceCoreMVC.Data.pdb
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.csprojAssemblyReference.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.AssemblyInfoInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.AssemblyInfo.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ref\ECommerceCoreMVC.Data.dll
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Data\obj\Debug\net5.0\ECommerceCoreMVC.Data.pdb

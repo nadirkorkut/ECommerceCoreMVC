@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using ECommerceCoreMVC.Data.Infrastructure;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +11,7 @@ namespace ECommerceCoreMVC.Data.Entities
     {
         Male,Female
     }
-    public class User : IdentityUser<int>
+    public class User : IdentityUser<int>, IBaseEntity
     {
         #region Properties
         public string Name { get; set; }
@@ -28,5 +30,54 @@ namespace ECommerceCoreMVC.Data.Entities
         public virtual ICollection<Rayon> Rayons { get; set; } = new HashSet<Rayon>();
 
         #endregion
+
+        public void Build(ModelBuilder builder)
+        {
+            builder.Entity<User>(entity =>
+            {
+                entity
+                .HasMany(p => p.Banners)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.Brands)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.Categories)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.Orders)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.Products)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.ProductImages)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity
+                .HasMany(p => p.Rayons)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+            });
+        }
+
     }
 }

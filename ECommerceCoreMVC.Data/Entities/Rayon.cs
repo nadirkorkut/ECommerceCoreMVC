@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace ECommerceCoreMVC.Data.Entities
@@ -9,6 +10,9 @@ namespace ECommerceCoreMVC.Data.Entities
     public class Rayon : BaseEntity
     {
         #region Properties
+        [Display(Name ="Reyon Adı")]
+        [Required(ErrorMessage ="{0} Alanı Boş Bırakılamaz!")]
+        [MaxLength(50,ErrorMessage ="{0} Alanı En Fazla {1} Karakter Olmalıdır!")]
         public string Name { get; set; }
         public int SortOrder { get; set; }
 

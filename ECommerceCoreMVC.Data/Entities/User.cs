@@ -36,6 +36,10 @@ namespace ECommerceCoreMVC.Data.Entities
             builder.Entity<User>(entity =>
             {
                 entity
+                .Property(p => p.Name)
+                .IsRequired();
+
+                entity
                 .HasMany(p => p.Banners)
                 .WithOne(p => p.User)
                 .HasForeignKey(p => p.UserId)

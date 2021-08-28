@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DRK52Q6ypWHnAaCzYWx0h7ZCBUlvd5+MXfoZaSmHWHO2gcTNf7Cgf+7Ni2AJPU9c8BRTH5EdYfY4EoL1zGxMNQ==",
+  "dgSpecHash": "OTM3/hSTVryKVq054I5hRolnQd7bTHoZl80Pm4igAZN2ejlOofkxLLp9A8INcUUio3K9zG0URKi0SYxVsCt2MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nadir\\source\\repos\\ECommerceCoreMVC\\ECommerceCoreMVC.Data\\ECommerceCoreMVC.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
+    "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
@@ -21,10 +22,11 @@
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nadir\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Nadir\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Nadir\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\Nadir\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Nadir\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

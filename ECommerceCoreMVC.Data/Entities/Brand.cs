@@ -1,7 +1,10 @@
 ﻿using ECommerceCoreMVC.Data.Infrastructure;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace ECommerceCoreMVC.Data.Entities
@@ -9,9 +12,17 @@ namespace ECommerceCoreMVC.Data.Entities
     public class Brand : BaseEntity
     {
         #region Properties
+        [Display(Name = "Marka Adı")]
+        [Required(ErrorMessage = "{0} alanı boş bırakılamaz!")]
+        [MaxLength(50, ErrorMessage = "{0} alanı en fazla {1} karakter olamalıdır!")]
         public string Name { get; set; }
         public string Image { get; set; }
         public int SortOrder { get; set; }
+
+        [NotMapped]
+        [Display(Name = "Görsel")]
+        public IFormFile PictureFile { get; set; }
+
         #endregion
 
         #region Navigation

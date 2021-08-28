@@ -1,7 +1,10 @@
 ﻿using ECommerceCoreMVC.Data.Infrastructure;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace ECommerceCoreMVC.Data.Entities
@@ -10,15 +13,50 @@ namespace ECommerceCoreMVC.Data.Entities
     {
         #region Properties
 
+        [Display(Name = "Ürün Adı")]
+        [Required(ErrorMessage = "{0} Alanı Boş Bırakılamaz!")]
+        [MaxLength(250, ErrorMessage = "{0} Alanı En Fazla {1} Karakter Olmalıdır!")]
         public string Name { get; set; }
         public string Image { get; set; }
+
+        [Display(Name = "Ürün Kodu")]
+        [Required(ErrorMessage = "{0} Alanı Boş Bırakılamaz!")]
         public string ProductCode { get; set; }
+        
+        [Display(Name = "Barkod")]
+        [RegularExpression(@"^[0-9]{13}$",ErrorMessage ="Lütfen Geçerli Bir Barkod Numarası Yazınız.")]
         public string Barcode { get; set; }
         public decimal Price { get; set; }
+
+        [Display(Name = "İndirim Oranı")]
+        [Required(ErrorMessage = "{0} Alanı Boş Bırakılamaz!")]
+        [RegularExpression(@"^[0-9]{0,2}$", ErrorMessage = "Lütfen Geçerli Bir İndirim Oranı Yazınız.")]
         public int Discount { get; set; }
+
+        [Display(Name = "Ürün Açıklaması")]
+        [DataType(DataType.MultilineText)]
         public string Descriptions { get; set; }
         public int Reviews { get; set; }
+        [Display(Name = "Marka")]
         public int? BrandId { get; set; }
+        
+        [NotMapped]
+        [Display(Name = "Fiyat")]
+        [RegularExpression(@"^[0-9]+(\,[0-9]{1,2})?$", ErrorMessage = "Lütfen Geçerli Bir İndirim Oranı Yazınız.")]
+        public string PriceText { get; set; }
+        [NotMapped]
+        [Display(Name = "Görsel")]
+        public IFormFile PictureFile { get; set; }
+        [NotMapped]
+        [Display(Name = "Kategoriler")]
+        public int[] SelectedCategories { get; set; }
+
+        [NotMapped]
+        [Display(Name = "Görsel Galerisi")]
+        public IFormFile[] PictureFiles { get; set; }
+
+        [NotMapped]
+        public int[] PictureFilesToDeleted { get; set; }
 
         #endregion
 

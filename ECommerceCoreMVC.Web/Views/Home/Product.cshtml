@@ -1,0 +1,102 @@
+﻿@model Product
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="row mb-4">
+    <div class="col-12 col-md-6">
+        <a id="productImageLigthbox" href="@Model.Image" data-lightbox="image_@Model.Id" data-title="@Model.Name">
+            <img id="productImage" class="img-thumbnail" src="@Model.Image" alt="@Model.Name" />
+        </a>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="p-1 border m-2">
+                <img src="@Model.Image" height="80" class="gallery-image" style="cursor:pointer" />
+            </div>
+            @foreach (var productImage in Model.ProductImages)
+            {
+                <div class="p-1 border m-2">
+                    <img src="@productImage.Image" height="80" class="gallery-image" style="cursor:pointer" />
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="h2">
+            @Model.Name
+        </div>
+        <div class="mb-2">
+            @foreach (var category in Model.CategoryProducts.Select(p => p.Category).Where(p => p.Enabled))
+            {
+                <a asp-route="category" asp-route-id="@category.Id" asp-route-name="@category.Name.ToSafeUrlString()" class="mr-2">
+                    @category.Rayon.Name / @category.Name
+                </a>
+            }
+        </div>
+        @if (Model.Discount > 0)
+        {
+            <div class="d-flex mb-2">
+                <div class="py-2 px-4 text-center h2 bg-danger text-white d-flex align-items-center">
+                    %@Model.Discount.ToString("n0")
+                </div>
+                <div class="flex-fill p-2">
+                    <div class="text-muted h4" style="text-decoration: line-through">
+                        @Model.Price.ToString("c2")
+                    </div>
+                    <div class="text-success h2">
+                        @Model.DiscountedPrice.ToString("c2")
+                    </div>
+                    <div class="text-secondary small">
+                        Kazancınız : @Model.DiscountAmount.ToString("c2")
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="text-success h2 mb-2">
+                @Model.Price.ToString("c2")
+            </div>
+        }
+        @if (Model.DiscountedPrice > 100)
+        {
+            <div class="mb-2">
+                <i class="fa fa-truck"></i> Ücretsiz Kargo
+            </div>
+        }
+        <a class="btn btn-outline-success" asp-controller="Home" asp-action="AddToCart" asp-route-id="@Model.Id">
+            <i class="fa fa-shopping-cart"></i>Sepete Ekle
+        </a>
+    </div>
+</div>
+
+<ul class="nav nav-tabs" id="productTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#desc" role="tab" aria-controls="desc" aria-selected="true"><i class="fa fa-info"></i>Ürün Bilgisi</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false"><i class="fa fa-comment"></i>Ürün Yorumları</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="payments-tab" data-toggle="tab" href="#payments" role="tab" aria-controls="payments" aria-selected="false"><i class="fa fa-credit-card">Ödeme Seçenekleri</i></a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active p-2 border border-top-0" id="desc" role="tabpanel" aria-labelledby="home-tab">
+        @Html.Raw(Model.Descriptions)
+    </div>
+    <div class="tab-pane fade p-2 border border-top-0" id="comments" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade p-2 border border-top-0" id="payments" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        $(() => {
+            $('.gallery-image').on('click', (e) => {
+                $('#productImage').attr('src', $(e.currentTarget).attr('src'));
+                $('#productImageLigthbox').attr('href', $(e.currentTarget).attr('src'));
+            });
+        });
+    </script>
+}

@@ -26,8 +26,15 @@ using ECommerceCoreMVC.Web.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\Views\_ViewImports.cshtml"
+using ECommerceCoreMVC.Data.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd94e20354952b5f9dae4c73427da9385c6233b1", @"/Views/Shared/Error404.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"08acd20f6fe38f14f66839a9113fe7777e556c2b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e8725074e3c3c956871a3955a9622e9ed0e55a42", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error404 : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

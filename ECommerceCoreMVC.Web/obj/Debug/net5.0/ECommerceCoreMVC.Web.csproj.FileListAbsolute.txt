@@ -187,3 +187,11 @@ C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5
 C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Brands\Index.cshtml.g.cs
 C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\DatatablesPartial.cshtml.g.cs
 C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\ProductPicturePartial.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\bin\Debug\net5.0\libman.json
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\RayonMenu\Default.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Shared\ProductBoxPartial.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Shared\ProductListPartial.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Home\Category.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\BrandsBar\Default.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Home\Brand.cshtml.g.cs
+C:\Users\Nadir\source\repos\ECommerceCoreMVC\ECommerceCoreMVC.Web\obj\Debug\net5.0\Razor\Views\Home\Product.cshtml.g.cs

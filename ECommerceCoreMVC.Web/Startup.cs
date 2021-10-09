@@ -1,13 +1,16 @@
 using ECommerceCoreMVC.Data.Entities;
+using ECommerceCoreMVC.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -48,6 +51,8 @@ namespace ECommerceCoreMVC.Web
                 options.Lockout.MaxFailedAccessAttempts = 3;
             })
                 .AddEntityFrameworkStores<AppDbContext>();
+
+            services.AddScoped<IShoppingCartService, ShoppingCartService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,11 +78,31 @@ namespace ECommerceCoreMVC.Web
 
             app.UseAuthorization();
 
+            app.UseRequestLocalization(options =>
+            {
+                options.DefaultRequestCulture = new RequestCulture(CultureInfo.CreateSpecificCulture("tr-TR"));
+            });
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "areas",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+            endpoints.MapControllerRoute(
+                name: "areas",
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+            endpoints.MapControllerRoute(
+                name: "category",
+                pattern: "c/{id}/{name}.html",
+                defaults: new { controller = "Home", action = "Category" });
+
+            endpoints.MapControllerRoute(
+                name: "product",
+                pattern: "p/{id}/{name}.html",
+                defaults: new { controller = "Home", action = "Product" });
+
+            endpoints.MapControllerRoute(
+                name: "brand",
+                pattern: "b/{id}/{name}.html",
+                defaults: new { controller = "Home", action = "Brand" });
 
                 endpoints.MapControllerRoute(
                     name: "default",
